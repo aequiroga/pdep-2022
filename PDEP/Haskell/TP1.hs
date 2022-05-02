@@ -1,0 +1,4 @@
+--Direcciones de memoria como listas
+--
+--Registros de CPU como n-tupla
+--
