@@ -58,13 +58,3 @@ productoXL (nombreProducto,_) = nombreProducto ++ "XL"
 --productoDeLujo: Dado el nombre de un producto, saber si es de lujo. Un producto es de lujo cuando contiene una “x” o “z” en su nombre.
 productoDeLujo :: Producto -> Bool
 productoDeLujo (nombreProducto,_) = elem 'x' nombreProducto || elem 'z' nombreProducto
-
---take :: Int -> String -> String
-
---drop :: Int -> String -> String
-
---head :: String -> Char
-
---elem :: Char -> String -> Bool
-
---reverse :: String -> String
